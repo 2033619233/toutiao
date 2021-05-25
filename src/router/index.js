@@ -7,6 +7,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('@/views/login')
+  },
 ]
 
 const router = createRouter({

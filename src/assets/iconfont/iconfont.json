@@ -1,0 +1,86 @@
+{
+  "id": "2563790",
+  "name": "toutiao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1486444",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7127668",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "9025564",
+      "name": "首页-选中",
+      "font_class": "yemian-copy-copy-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9851329",
+      "name": "点赞",
+      "font_class": "zan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10143467",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "12259735",
+      "name": "删 除",
+      "font_class": "shanchu-copy-copy-copy-copy-copy-copy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12562300",
+      "name": "手机号",
+      "font_class": "shouji-copy-copy",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "19387815",
+      "name": "密 码",
+      "font_class": "mima",
+      "unicode": "eb26",
+      "unicode_decimal": 60198
+    },
+    {
+      "icon_id": "19993557",
+      "name": "问答",
+      "font_class": "wenda",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "20102417",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "20134265",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}
