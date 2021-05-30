@@ -1,4 +1,5 @@
 import axios from 'axios'
+import store from '@/store'
 
 const axios1 = axios.create({
     baseURL: 'http://ttapi.research.itcast.cn',
@@ -6,6 +7,11 @@ const axios1 = axios.create({
 });
 
 axios1.interceptors.request.use(function (config) {
+    const {user} = store.state
+    if(user){
+        console.log(user);
+        config.headers.Authorization = `Bearer ${store.state.user.token}`
+    }
     return config;
 }, function (error) {
     return Promise.reject(error);
@@ -56,6 +62,8 @@ axios1.interceptors.response.use(function (response) {
     //     }
     return Promise.reject(error);
 });
+
+export default axios1
 
 export function get(url, data={}) {
     return new Promise((resolve, reject) => {

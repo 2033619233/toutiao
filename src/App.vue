@@ -1,21 +1,19 @@
 <template>
 <div id="app">
-  
+  <router-view></router-view>
 </div>
 </template>
 
 <script>
-
 export default {
   name: 'App',
   data() {
     return{
-      // 激活的导航栏
-      active:2
+    
     }
   }
 }
 </script>
 
-
-<style lang="less"></style>
+<style>
+</style>

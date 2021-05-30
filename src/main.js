@@ -10,3 +10,4 @@ import '@/assets/css/global.less'
 const vm = createApp(App)
 vm.config.globalProperties.$toast = Vant.Toast
 vm.use(store).use(router).use(Vant).mount('#app')
+
